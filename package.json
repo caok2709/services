@@ -17,7 +17,8 @@
     "coverage": "nyc jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json",
     "snyk-protect": "snyk protect",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "npm run snyk-protect"
   },
   "bugs": {
     "url": "https://github.com/LabShare/services/issues"
@@ -63,20 +64,20 @@
     "glob": "^7.0.3",
     "gulp": "^4.0.2",
     "helmet": "^3.3.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.16",
     "loopback-connector-rest": "^3.6.0",
     "memorystore": "^1.6.0",
     "morgan": "^1.7.0",
     "q": "^1.4.1",
     "resolve-pkg": "^2.0.0",
     "revalidator": "^0.3.1",
-    "snyk": "^1.87.0",
+    "snyk": "^1.369.0",
     "socket.io": "^2.0.2",
     "socket.io-client": "^2.0.2",
     "socket.io-stream": "^0.9.1",
     "stoppable": "^1.1.0",
     "verror": "^1.10.0",
-    "yargs": "^15.1.0"
+    "yargs": "^15.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
@@ -99,7 +100,7 @@
     "is-jpg": "^2.0.0",
     "jasmine": "^3.1.0",
     "jasmine-core": "^3.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.16",
     "nyc": "^15.0.0",
     "portfinder": "^1.0.10",
     "proxyquire": "^2.0.1",
@@ -123,5 +124,5 @@
       "@semantic-release/git"
     ]
   },
-  "snyk": false
+  "snyk": true
 }
