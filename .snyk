@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.19.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -9,3 +9,96 @@ patch:
   'npm:ms:20170412':
     - socket.io-stream > debug > ms:
         patched: '2018-01-23T20:25:18.090Z'
+  SNYK-JS-LODASH-567746:
+    - '@labshare/services-notifications > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - async > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - loopback-connector-rest > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest-explorer > @loopback/rest > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/service-proxy > loopback-datasource-juggler > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@labshare/services-notifications > twilio > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - loopback-connector-rest > strong-globalize > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@labshare/services-notifications > @loopback/boot > @loopback/repository > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/service-proxy > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest > strong-error-handler > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/boot > @loopback/service-proxy > loopback-datasource-juggler > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@labshare/services-logger > winston > async > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@labshare/services-notifications > @loopback/boot > @loopback/context > @loopback/metadata > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/service-proxy > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/boot > @loopback/service-proxy > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest-explorer > @loopback/rest > strong-error-handler > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@labshare/services-notifications > @loopback/boot > @loopback/service-proxy > loopback-datasource-juggler > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@labshare/services-notifications > @loopback/boot > @loopback/service-proxy > @loopback/context > @loopback/metadata > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/boot > @loopback/service-proxy > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@labshare/services-notifications > @loopback/boot > @loopback/service-proxy > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@labshare/services-notifications > @loopback/boot > @loopback/service-proxy > @loopback/core > @loopback/context > @loopback/metadata > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@labshare/services-notifications > @loopback/boot > @loopback/service-proxy > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > @loopback/context > @loopback/metadata > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > @loopback/core > @loopback/context > @loopback/metadata > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
+    - '@loopback/rest-explorer > @loopback/rest > @loopback/openapi-v3 > @loopback/repository-json-schema > @loopback/repository > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash':
+        patched: '2020-07-29T06:30:41.069Z'
