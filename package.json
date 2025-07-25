@@ -64,7 +64,7 @@
     "gulp": "^4.0.2",
     "helmet": "^3.3.0",
     "lodash": "^4.17.20",
-    "loopback-connector-rest": "^3.6.0",
+    "loopback-connector-rest": "^5.0.1",
     "memorystore": "^1.6.0",
     "morgan": "^1.7.0",
     "q": "^1.4.1",
