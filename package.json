@@ -61,7 +61,7 @@
     "express-session": "^1.14.1",
     "fancy-log": "latest",
     "glob": "^7.0.3",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "helmet": "^3.3.0",
     "lodash": "^4.17.20",
     "loopback-connector-rest": "^3.6.0",
